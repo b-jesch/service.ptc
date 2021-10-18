@@ -1,0 +1,107 @@
+
+# XBMC Media Center language file
+# Addon Name: Parental Time Control
+# Addon id: service.ptc
+# Addon version: 0.0.1
+# Addon Provider: Birger Jesch
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2015-09-29 07:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#32015"
+msgid "Time Tables"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Time Slot Validity"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Monday - Sunday"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Monday - Friday"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Saturday - Sunday"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Daily"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Monday"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Tuesday"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Wednesday"
+msgstr ""
+
+msgctxt "#32028"
+msgid "Thursday"
+msgstr ""
+
+msgctxt "#32029"
+msgid "Friday"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Saturday"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Sunday"
+msgstr ""
+
+msgctxt "#32032"
+msgid "enabled from"
+msgstr ""
+
+msgctxt "#32033"
+msgid "enabled until"
+msgstr ""
+
+msgctxt "#32034"
+msgid "enabled from"
+msgstr ""
+
+msgctxt "#32035"
+msgid "enabled until"
+msgstr ""
+
+msgctxt "#32036"
+msgid "enabled from"
+msgstr ""
+
+msgctxt "#32037"
+msgid "enabled until"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Time Slot 1 enabled"
+msgstr ""
+
+msgctxt "#32039"
+msgid "Time Slot 2 enabled"
+msgstr ""
+
+msgctxt "#32040"
+msgid "Time Slot 3 enabled"
+msgstr ""
