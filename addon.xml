@@ -9,8 +9,8 @@
         <platform>all</platform>
         <summary lang="en_GB">Parental Time Control - Control Kodi usage times</summary>
         <summary lang="de_DE">Parental Time Control - Steuere die Nutzungszeiten von Kodi</summary>
-        <description lang="en_GB">This addon allows the use of Kodi only at certain times, which can be defined in the setup. A total of 3 different usage times can be defined for each day.</description>
-        <description lang="de_DE">Dieses Addon erlaubt die Nutzung von Kodi nur zu bestimmten Zeiten, die im Setup festgelegt werden können. Es lassen sich insgesamt 3 verschiedene Nutzungszeiten für jeden Tag definieren.</description>
+        <description lang="en_GB">This addon allows the use of Kodi only at certain times, which can be defined in the setup. A total of 3 different usage times can be defined for each day. If the usage time has expired or Kodi is started outside the usage time, it is possible to enter a code for an unlock ticket within one minute, which extends the usage time by one hour. Otherwise Kodi will shut down immediately</description>
+        <description lang="de_DE">Dieses Addon erlaubt die Nutzung von Kodi nur zu bestimmten Zeiten, die im Setup festgelegt werden können. Es lassen sich insgesamt 3 verschiedene Nutzungszeiten für jeden Tag definieren. Ist die Nutzungszeit abgelaufen oder wird Kodi ausserhalb der Nutzungszeit gestartet, besteht die Möglichkeit, innerhalb einer Minute den Code für ein Freischaltticket einzugeben, welches die Nutzungsdauer um eine Stunde verlängert. Ansonsten wird Kodi herunter gefahren.</description>
         <disclaimer lang="en_GB">Use at your own risk. Protect your settings with the Kodi master lock.</disclaimer>
         <disclaimer lang="de_DE">Benutzung auf eigene Gefahr. Sichere die Einstellungen mit dem Kodi Master Lock.</disclaimer>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>

@@ -15,89 +15,89 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 msgctxt "#32015"
 msgid "Allow overrun of time quota until Movie/Episode has finished"
-msgstr ""
+msgstr "Erlaube Überziehung des Limits bis Film/Serie beendet ist"
 
 msgctxt "#32016"
 msgid "But not more than"
-msgstr ""
+msgstr "aber nicht länger als"
 
 msgctxt "#32017"
 msgid "5 mins"
-msgstr ""
+msgstr "5 Minuten"
 
 msgctxt "#32018"
 msgid "10 mins"
-msgstr ""
+msgstr "10 Minuten"
 
 msgctxt "#32019"
 msgid "15 mins"
-msgstr ""
+msgstr "15 Minuten"
 
 msgctxt "#32020"
 msgid "30 mins"
-msgstr ""
+msgstr "30 Minuten"
 
 msgctxt "#32021"
 msgid "Unlock Tickets"
-msgstr ""
+msgstr "Freischaltungs Tickets"
 
 msgctxt "#32022"
 msgid "Generate Ticket Code (1 Hour)"
-msgstr ""
+msgstr "Erzeuge Ticket Code (1 Stunde)"
 
 # empty 32023 - 32024
 
 msgctxt "#32025"
 msgid "Monday"
-msgstr ""
+msgstr "Montag"
 
 msgctxt "#32026"
 msgid "Tuesday"
-msgstr ""
+msgstr "Dienstag"
 
 msgctxt "#32027"
 msgid "Wednesday"
-msgstr ""
+msgstr "Mittwoch"
 
 msgctxt "#32028"
 msgid "Thursday"
-msgstr ""
+msgstr "Donnerstag"
 
 msgctxt "#32029"
 msgid "Friday"
-msgstr ""
+msgstr "Freitag"
 
 msgctxt "#32030"
 msgid "Saturday"
-msgstr ""
+msgstr "Samstag"
 
 msgctxt "#32031"
 msgid "Sunday"
-msgstr ""
+msgstr "Sonntag"
 
 msgctxt "#32032"
 msgid "enabled from"
-msgstr ""
+msgstr "aktiviert ab"
 
 msgctxt "#32033"
 msgid "enabled until"
-msgstr ""
+msgstr "aktiviert bis"
 
 # empty 32034 - 32037
 
 msgctxt "#32038"
 msgid "Enable Time Frame 1"
-msgstr ""
+msgstr "Zeitrahmen 1 aktivieren"
 
 msgctxt "#32039"
 msgid "Enable Time Frame 2"
-msgstr ""
+msgstr "Zeitrahmen 2 aktivieren"
 
 msgctxt "#32040"
 msgid "Enable Time Frame 3"
-msgstr ""
+msgstr "Zeitrahmen 3 aktivieren"

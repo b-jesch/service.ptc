@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <settings>
     <category label="5">
-        <setting label="32015" type="lsep" />
-        <setting label="32020" id="time_range" type="enum" lvalues="32021|32022|32023|32024" />
+        <setting label="32015" id="enable_overrun" type="bool" default="true" />
+        <setting label="32016" id="overrun_time" type="labelenum" lvalues="32017|32018|32019|32020" enable="eq(-1,true)" />
+        <setting label="32021" type="lsep" />
+        <setting label="32022" id="ticket" type="action" action="RunScript(service.ptc,create_ticket)" option="close" />
     </category>
     <category label="32025">
         <setting label="32038" id="enabled_1_0" type="bool" default="true" />
@@ -10,12 +12,12 @@
         <setting label="32033" id="slot_1_stop_0" type="time" subsetting="true" default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32039" id="enabled_2_0" type="bool" default="false" />
-        <setting label="32034" id="slot_2_start_0" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32035" id="slot_2_stop_0" type="time" subsetting="true"  default="23:59" enable="eq(-2,true" />
+        <setting label="32032" id="slot_2_start_0" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_2_stop_0" type="time" subsetting="true"  default="23:59" enable="eq(-2,true" />
         <setting type="sep" />
         <setting label="32040" id="enabled_3_0" type="bool" default="false" />
-        <setting label="32036" id="slot_3_start_0" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32037" id="slot_3_stop_0" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_3_start_0" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_3_stop_0" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
     </category>>
     <category label="32026">
         <setting label="32038" id="enabled_1_1" type="bool" default="true" />
@@ -23,12 +25,12 @@
         <setting label="32033" id="slot_1_stop_1" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32039" id="enabled_2_1" type="bool" default="false" />
-        <setting label="32034" id="slot_2_start_1" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32035" id="slot_2_stop_1" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_2_start_1" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_2_stop_1" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32040" id="enabled_3_1" type="bool" default="false" />
-        <setting label="32036" id="slot_3_start_1" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32037" id="slot_3_stop_1" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_3_start_1" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_3_stop_1" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
     </category>
     <category label="32027">
         <setting label="32038" id="enabled_1_2" type="bool" default="true" />
@@ -36,12 +38,12 @@
         <setting label="32033" id="slot_1_stop_2" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32039" id="enabled_2_2" type="bool" default="false" />
-        <setting label="32034" id="slot_2_start_2" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32035" id="slot_2_stop_2" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_2_start_2" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_2_stop_2" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32040" id="enabled_3_2" type="bool" default="false" />
-        <setting label="32036" id="slot_3_start_2" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32037" id="slot_3_stop_2" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_3_start_2" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_3_stop_2" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
     </category>
     <category label="32028">
         <setting label="32038" id="enabled_1_3" type="bool" default="true" />
@@ -49,12 +51,12 @@
         <setting label="32033" id="slot_1_stop_3" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32039" id="enabled_2_3" type="bool" default="false" />
-        <setting label="32034" id="slot_2_start_3" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32035" id="slot_2_stop_3" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_2_start_3" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_2_stop_3" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32040" id="enabled_3_3" type="bool" default="false" />
-        <setting label="32036" id="slot_3_start_3" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32037" id="slot_3_stop_3" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_3_start_3" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_3_stop_3" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
     </category>
     <category label="32029">
         <setting label="32038" id="enabled_1_4" type="bool" default="true" />
@@ -62,12 +64,12 @@
         <setting label="32033" id="slot_1_stop_4" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32039" id="enabled_2_4" type="bool" default="false" />
-        <setting label="32034" id="slot_2_start_4" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32035" id="slot_2_stop_4" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_2_start_4" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_2_stop_4" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32040" id="enabled_3_4" type="bool" default="false" />
-        <setting label="32036" id="slot_3_start_4" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32037" id="slot_3_stop_4" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_3_start_4" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_3_stop_4" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
     </category>
     <category label="32030">
         <setting label="32038" id="enabled_1_5" type="bool" default="true" />
@@ -75,12 +77,12 @@
         <setting label="32033" id="slot_1_stop_5" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32039" id="enabled_2_5" type="bool" default="false" />
-        <setting label="32034" id="slot_2_start_5" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32035" id="slot_2_stop_5" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_2_start_5" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_2_stop_5" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32040" id="enabled_3_5" type="bool" default="false" />
-        <setting label="32036" id="slot_3_start_5" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32037" id="slot_3_stop_5" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_3_start_5" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_3_stop_5" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
     </category>
     <category label="32031">
         <setting label="32038" id="enabled_1_6" type="bool" default="true" />
@@ -88,11 +90,11 @@
         <setting label="32033" id="slot_1_stop_6" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32039" id="enabled_2_6" type="bool" default="false" />
-        <setting label="32034" id="slot_2_start_6" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32035" id="slot_2_stop_6" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_2_start_6" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_2_stop_6" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
         <setting type="sep" />
         <setting label="32040" id="enabled_3_6" type="bool" default="false" />
-        <setting label="32036" id="slot_3_start_6" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
-        <setting label="32037" id="slot_3_stop_6" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
+        <setting label="32032" id="slot_3_start_6" type="time" subsetting="true"  default="00:01" enable="eq(-1,true)" />
+        <setting label="32033" id="slot_3_stop_6" type="time" subsetting="true"  default="23:59" enable="eq(-2,true)" />
     </category>
 </settings>
